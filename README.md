@@ -1,5 +1,7 @@
 # Oracle Jet Base Project ES6
 
+![](https://github.com/bpmsoasolutions/oracle-jet-todo-app/blob/master/app-result.png)
+
 This is a base project overpowered with this technologies:
 
 * Oracle Jet
