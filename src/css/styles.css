@@ -1,0 +1,17 @@
+#page {
+    margin-top: 80px;
+}
+
+a.oj-navigationlist-item-icon:before {
+    padding: 0 5px 0 0 !important;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.oj-center{
+    position: relative;
+    margin: auto;
+}

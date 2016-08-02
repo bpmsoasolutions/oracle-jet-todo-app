@@ -1,0 +1,17 @@
+<!--
+ Copyright (c) 2014, 2016, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+<h1>Todo List</h1>
+<div class="oj-sm-4 oj-center">
+    <ojk-input-text params="value: taskName"></ojk-input-text>
+    <ojk-button params="click: addTask,label: 'Add task'"></ojk-button>
+</div>
+<div class="oj-sm-4 oj-center">
+    <ol data-bind="foreach: { data: tasks, as: 'task' }">
+        <li>
+            <span data-bind="text: task.title"></span>
+            <ojk-button params="id:$index, click: $parent.removeTask,label: 'X'"></ojk-button>
+        </li>
+    </ol>
+</div>
