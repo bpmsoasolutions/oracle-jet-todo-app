@@ -28,7 +28,6 @@ class Model {
         var removed = tasks.splice(index,1)
         this.tasks(tasks)
     }
-
 }
 
 export default { viewModel: Model, template: homeTemplate };
